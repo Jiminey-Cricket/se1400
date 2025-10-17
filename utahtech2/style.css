@@ -10,7 +10,7 @@ header {
     font-family:Georgia, serif;
 }
 
-#wrapper h1{
+header h1{
     line-height:140%;
     padding: .5rem
 }
