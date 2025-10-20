@@ -74,12 +74,10 @@ div img{
     
 }
 .red-end{
-    background-color:rgba(255, 0, 0, 0.3);
     grid-column: 1;
     grid-row:2;
 }
 .red-end2{
-    background-color:rgba(255, 0, 0, 0.3);
     grid-column: 8;
     grid-row:2;
 }
@@ -151,12 +149,10 @@ div img{
     border-radius:10px;
 }
 .yellow-end{
-    background-color:rgba(255, 217, 0, 0.3);
     grid-column:1;
     grid-row:4;
 }
 .yellow-end2{
-    background-color:rgba(255, 217, 0, 0.3);
     grid-column:8;
     grid-row:4;
 }
