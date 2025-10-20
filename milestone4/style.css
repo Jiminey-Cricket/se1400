@@ -58,20 +58,26 @@ div img{
     height: 400px;
     padding-left:30px;
 }
+.red h1{
+    font-size:50px;
+}
+.red h2{
+    font-size:25px;
+}
+
 .red h1, .red h2{
     padding-left:5px;
     color:white;
     background-color:rgba(0, 0, 0, 0.5);
     display:inline-block;
 }
-.red h3{
+#button{
     padding-left:5px;
     color:white;
     background-color:black;
     padding:10px;
     border-radius:15px;
     display:inline-block;
-    
 }
 .red-end{
     grid-column: 1;
