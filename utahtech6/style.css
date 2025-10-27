@@ -78,6 +78,7 @@ h3 {
 }
 
 main {
+    grid-column: 2 / 8;
     padding-left:2rem;
     padding-right:2rem;
     background-color:#FFFFFF;
@@ -149,9 +150,6 @@ nav a:hover{
 
 *{
     box-sizing:border-box;
-    grid-row: 4/5;
-    grid-column: 2/8;
-
 }
 
 header a{
