@@ -4,7 +4,7 @@
     grid-auto-rows: auto;
 }
 
-.green{
+.sub-images-skills{
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -14,7 +14,7 @@
     grid-row:3;
     height:350px;
 }
-.green2{
+.sub-images-official-website{
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -25,12 +25,12 @@
     height:350px;
     margin-top:6px;
 }
-.green h4, .green2 h4{
+.sub-images-skills h4, .sub-images-official-website h4{
     margin-top:10px;
     margin-bottom:5px;
     font-size:1.2em;
 }
-.green2 a{
+.sub-images-official-website a{
     text-decoration: none;
     background-color:black;
     color:white;
@@ -45,7 +45,7 @@ div img{
     height:265px;
     padding-top:0px;
 }
-.red{
+.main-content{
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -58,20 +58,21 @@ div img{
     height: 400px;
     padding-left:30px;
 }
-.red h1{
+.main-content h1{
     font-size:50px;
 }
-.red h2{
+
+.main-content h2{
     font-size:25px;
 }
 
-.red h1, .red h2{
+.main-content h1, .main-content h2{
     padding-left:5px;
     color:white;
     background-color:rgba(0, 0, 0, 0.5);
     display:inline-block;
 }
-#button{
+#DND-link{
     padding-left:5px;
     color:white;
     background-color:black;
@@ -79,16 +80,9 @@ div img{
     border-radius:15px;
     display:inline-block;
 }
-.red-end{
-    grid-column: 1;
-    grid-row:2;
-}
-.red-end2{
-    grid-column: 8;
-    grid-row:2;
-}
 
-.blue{
+
+.logo{
     background-color:#FFFFFF;
     background-image: url(Images_For_DND_Website/Logo.png);
     background-repeat:no-repeat;
@@ -100,7 +94,7 @@ div img{
     height:100px;
     
 }
-.blue2, .blue3, .blue4{
+.button-class, .button-initiations, .button-storytelling, .button-acting-tips{
     display:flex;
     justify-content:center;
     align-items:center;
@@ -109,19 +103,19 @@ div img{
     height:80px;
 }
 
-.blue2{
+.button-class{
     grid-column:4;
     grid-row:1;
 }
-.blue3{
+.button-initiations{
     grid-column:5;
     grid-row:1;
 }
-.blue4{
+.button-storytelling{
     grid-column:6;
     grid-row:1;
 }
-.blue5{
+.button-acting-tips{
     background-color:black;
     color:white;
     display:flex;
@@ -133,32 +127,16 @@ div img{
     height:80px;
 }
 
-.blue-end{
-    grid-column:1;
-    grid-row:1;
-}
-.blue-end2{
-    grid-column:8;
-    grid-row:1;
-}
-.yellow{
+.footer{
     display:flex;
     justify-content: space-around;
     grid-column:2/8;
     grid-row:4;
     height:90px;
 }
-.yellow h2{
+.footer h2{
     background-color:black;
     color:white;
     display:inline-block;
     padding:10px 15px;
-}
-.yellow-end{
-    grid-column:1;
-    grid-row:4;
-}
-.yellow-end2{
-    grid-column:8;
-    grid-row:4;
 }
