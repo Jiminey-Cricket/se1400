@@ -93,6 +93,15 @@ div img{
     height:100px;
     
 }
+.list-logo{
+    background-color:#FFFFFF;
+    background-image: url(Images_For_DND_Website/Logo.png);
+    background-repeat:no-repeat;
+    background-size:200px;
+    background-position:center;
+    display:flex;
+    height:100px;
+}
 .button-class, .button-initiations, .button-storytelling, .button-acting-tips{
     display:flex;
     justify-content:center;
