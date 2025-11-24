@@ -149,7 +149,7 @@ nav{
     position:static;
     width:100%;
 }
-nav a{
+nav a, .sub-images-skills a{
     text-decoration:none;
     color:black;
 }
