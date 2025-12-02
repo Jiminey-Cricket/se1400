@@ -248,14 +248,14 @@ textarea {
     padding: 20px;
 }
 
-.main-content-social h1 {
+.main-content-social h1, .main-content-social h2{
     text-align: center;
     color: white;
 }
 
 .social-section {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, .5fr));
     grid-template-rows: auto;
 }
 
