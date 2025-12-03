@@ -281,7 +281,18 @@ textarea {
 .main-content-construction div {
     background-color: #DF0000;
     margin:20px;
-    border-radius:10px;
+    border-radius:5px;
+}
+.main-content-storytelling {
+    grid-row: 2;
+    grid-column: 2/8;
+    font-family: 'Tiamat Condensed SC', 'sans-serif';
+    background-color: #DF0000;
+    border-radius: 5px;
+    padding: 20px;
+}
+.main-content-storytelling h1{
+    text-align:center;
 }
 
 .form-section {
