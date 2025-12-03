@@ -288,6 +288,7 @@ textarea {
     grid-column: 2/8;
     font-family: 'Tiamat Condensed SC', 'sans-serif';
     background-color: #DF0000;
+    color:white;
     border-radius: 5px;
     padding: 20px;
 }
