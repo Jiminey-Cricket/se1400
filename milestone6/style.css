@@ -190,7 +190,7 @@ nav a, .sub-images-skills a {
     /* /// */
 }
 
-.main-content-support h1, form {
+.main-content-support h1, .main-content-support h2, form {
     text-align: center;
     color: white;
 }
@@ -268,11 +268,20 @@ textarea {
     grid-row: 2;
     grid-column: 2/8;
     padding: 20px;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
 }
 
 .main-content-construction img {
     width: 100%;
     height: auto;
+}
+.main-content-construction div {
+    background-color: #DF0000;
+    margin:20px;
+    border-radius:10px;
 }
 
 .form-section {
@@ -398,6 +407,9 @@ textarea {
     .main-content div h1 {
         font-size: 30px;
     }
+    .social-section{
+        grid-template-columns:repeat(2, minmax(0, .5fr))
+    }
 
 }
 
@@ -417,4 +429,5 @@ textarea {
     #button {
         margin: 5px;
     }
+    
 }
